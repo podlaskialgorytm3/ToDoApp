@@ -1,11 +1,16 @@
 import './App.css'
 import './tailwind.css';
+import {ContentPage} from './components/ContentPage.jsx'
+import { TaskContent } from './components/TaskContent.jsx';
+import {Card} from './components/Card.jsx'
+import {TASK} from './task.js'
+
 
 function App() {
   return (
-      <div className='w-full h-screen body'>
-      
-      </div>
+      <ContentPage>
+          <TaskContent></TaskContent>
+      </ContentPage>
   )
 }
 
