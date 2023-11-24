@@ -1,5 +1,5 @@
-export const ContentPage = () => (
-    <div className="gradient w-full h-screen">
-
+export const ContentPage = ({children}) => (
+    <div className="w-full h-auto flex justify-center items-center gradient">
+    {children}
     </div>
 )
