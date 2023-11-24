@@ -3,9 +3,9 @@ import './tailwind.css';
 
 function App() {
   return (
-    <>
+      <div className='w-full h-screen body'>
       
-    </>
+      </div>
   )
 }
 

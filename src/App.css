@@ -1,3 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+div.body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(88,4,82,1) 0%, rgba(255,12,172,1) 100%, rgba(6,68,160,1) 100%, rgba(0,212,255,1) 100%);
+}
